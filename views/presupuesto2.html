@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LA TIENDITA DE GERKR</title>
+        <link rel="stylesheet" href="../estilos/estilos.css">
+    </head>
+    <body>
+        <Header>
+            <ul>
+            <li><a href="../index.html"> Inicio</a></li>
+            <li><a href="galeria.html"> Galeria</a></li>
+            <li class="deco"><a href="presupuesto2.html"> Presupuesto</a></li>
+            <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </Header>
+        <div>
+            <h1> <span>Presupuesto </span></h1>
+        </div>
+        <div class="contenedor1">
+            <h2>Datos del usuario</h2>
+            <form class="form1" id="formulario1">
+                <div class="input-contenedor">
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <span class="error" id="nombreError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="apellidos"> Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos">
+                    <span class="error" id="apellidosError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="telefono"> Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <span class="error" id="telefonoError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error" id="emailError"></span>
+                </div>
+            </form>
+        </div>
+        <div class="contenedor2"> 
+             <form id="formu" name="formu" method="post" action="#">
+            <div id="campos">
+                <div>
+                    <label for="base">Tipos de Carteras: </label>
+                    <select id="base">
+                        <option value="35">Cartera Beige 35€</option>
+                        <option value="40">Cartera Marron 40€</option>
+                        <option value="45">Cartera Negra 45€</option>
+                        <option value="40">Cartera Roja 40€</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="plazo">Plazo en días:: </label>
+                    <input type="number" min="1" max="5" name="plazo" id="plazo" value="5">
+                </div>
+
+                <div id="extras">
+                    <label >Cinturon Negro</label>
+                    <input type="checkbox" value="10" name="galeria" id="galeria">
+
+                    <label >Cinturon Marron</label>
+                    <input type="checkbox" value="15" name="formulario" id="formulario">
+                </div>
+
+                <div>
+                    <label for="total">Presupuesto estimado:</label>
+                    <input id="total" type="text" value="35">
+                </div>
+            </div>
+            <input type="submit" name="enviar" id="enviar" value="Enviar Datos" />
+        </form>
+                <input type="checkbox" required> Aceptar política de privacidad
+            <div class="botton-contenerdor"> 
+                    
+        </div>
+        </div>
+        
+        <script src="../js/presupuest.js"></script>
+        <footer>
+
+        </footer>
+    
+</body>
+</html>

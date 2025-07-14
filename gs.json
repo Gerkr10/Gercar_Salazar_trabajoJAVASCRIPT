@@ -1,0 +1,32 @@
+[
+    {
+        "articulo": "Cartera Beige",
+        "descripcion":"Hermosa cartera de mujer....",
+        "precio": "Precio: 30 Euros "
+    },
+    {
+        "articulo": "Cartera Mostaza",
+        "descripcion":"Hermosa cartera de mujer....",
+        "precio": "Precio: 40 Euros"
+    },
+    {
+        "articulo": "Cartera Negra",
+        "descripcion":"Hermosa cartera de mujer....",
+        "precio": "Precio: 45 Euros"
+    },
+    {
+       "articulo": "Cartera Roja",
+        "descripcion":"Hermosa cartera de mujer....",
+        "precio": "Precio: 40 Euros"
+    },
+    {
+        "articulo": "Cinturón Negro",
+        "descripcion":"El mejor complemento para su cartera....",
+        "precio": "Precio: 10 Euros"
+    },
+    {
+        "articulo": "Cinturón Marrón",
+        "descripcion":"El mejor complemento para su cartera....",
+        "precio": "Precio: 15 Euros"
+    }
+]
